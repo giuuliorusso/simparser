@@ -1,0 +1,28 @@
+cabal-version: 3.0
+
+name: simparser
+synopsis: Simple Haskell parsing library
+version: 0.1.0
+
+author: Giulio Russo <me@giuuliorusso.me>
+license: MIT
+license-file: LICENSE
+
+build-type: Simple
+tested-with: GHC == { 8.8, 8.10 }
+
+extra-source-files: README.md
+
+source-repository head
+  type: git
+  location: https://github.com/giuuliorusso/simparser.git
+
+library
+  hs-source-dirs: src
+  exposed-modules: SimParser
+
+  default-language: Haskell2010
+  build-depends: base >= 4.13 && < 4.15
+  other-extensions:
+    FlexibleInstances,
+    LambdaCase
