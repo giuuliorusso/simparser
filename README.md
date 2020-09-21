@@ -29,7 +29,7 @@ Right (-10,"n")
 
 ## Acknowledgements
 
-SimParser is based on Graham Hutton's [Functional parsing library](https://www.cs.nott.ac.uk/~pszgmh/Parsing.hs) [[YouTube]](https://youtu.be/dDtZLm7HIJs).
+SimParser is based on Graham Hutton's [Functional parsing library](https://www.cs.nott.ac.uk/~pszgmh/Parsing.hs) [[YouTube](https://youtu.be/dDtZLm7HIJs)].
 
 ## License
 
