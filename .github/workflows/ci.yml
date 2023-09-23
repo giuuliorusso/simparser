@@ -13,7 +13,7 @@ jobs:
         ghc: ["8.8", "8.10"]
 
     steps:
-      - uses: actions/checkout@v3.5.3
+      - uses: actions/checkout@v4.1.0
 
       - name: Setup Haskell
         uses: actions/setup-haskell@v1.1.4
